@@ -6,3 +6,10 @@ plugins {
     //hilt
     id("com.google.dagger.hilt.android") version "2.51.1" apply false
 }
+
+buildscript {
+    dependencies {
+        // Hilt Plugin
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.45")
+    }
+}
