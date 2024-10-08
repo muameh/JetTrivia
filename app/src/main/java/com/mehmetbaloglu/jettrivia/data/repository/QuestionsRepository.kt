@@ -1,7 +1,7 @@
 package com.mehmetbaloglu.jettrivia.data.repository
 
 import android.util.Log
-import com.mehmetbaloglu.jettrivia.data.DataOrException
+import com.mehmetbaloglu.jettrivia.data.model.DataOrException
 import com.mehmetbaloglu.jettrivia.data.model.QuestionItem
 import com.mehmetbaloglu.jettrivia.retrofit.QuestionsApi
 import javax.inject.Inject

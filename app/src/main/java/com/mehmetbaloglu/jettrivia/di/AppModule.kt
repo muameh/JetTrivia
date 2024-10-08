@@ -15,6 +15,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object AppModule {
 
+
     @Singleton
     @Provides
     fun provideQuestionsApi() : QuestionsApi =
@@ -23,6 +24,7 @@ object AppModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(QuestionsApi::class.java)
+
 
     @Singleton
     @Provides
