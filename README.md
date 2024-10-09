@@ -1,7 +1,7 @@
 # JetTrivia - A Trivia Quiz App
 
 ### Overview
-JetTrivia is a fully functional trivia quiz application developed using Jetpack Compose, designed to test your knowledge on various topics, with a special focus on "Osmanlı Tarihi" (Ottoman History). The app fetches questions from a remote API and presents them in an engaging and user-friendly interface.
+JetTrivia is a fully functional trivia quiz application developed using Jetpack Compose, designed to test your knowledge on various topics, with a special focus on "World History". The app fetches questions from a remote API and presents them in an engaging and user-friendly interface.
 
 ### Features
 - **Dynamic Question Fetching**: Fetch trivia questions in JSON format from a REST API using the Retrofit library.
